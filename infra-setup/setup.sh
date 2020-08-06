@@ -4,7 +4,7 @@ export STUDENTCLUSTERNAME='k8s-training-cluster'
 export STUDENTREGION='us-central1'
 export STUDENTCLUSTER_MIN_NODES='2'
 export STUDENTCLUSTER_MAX_NODES='3'
-export STUDENTCLUSTER_VERSION='1.14.10-gke.36'
+export STUDENTCLUSTER_VERSION='1.16.9-gke.6'
 
 if [ -z "$STUDENTPROJECTNAME" ]; then
   export STUDENTPROJECTNAME='<Add-Project-Name>'
